@@ -18,17 +18,6 @@ For Single Agent memory please check
 | Example complexity  | Beginner                                                                         |
 
 
-
-
-### Scenario context
-
-In this example, we'll create a **Travel Planning System** with:
-1. A Flight Booking Assistant specialized in air travel
-2. A Hotel Booking Assistant focused on accommodations
-3. A Travel Coordinator that delegates to these specialized agents
-
-This approach demonstrates how complex domains can be broken down into specialized agents that share memory the same memory store.
-
 ## Tutorial Architecture
 
 In this Tutorial, we will describe how to set up a shared memory resource that multiple agents can access. In our example we will perform following tasks - 
@@ -40,6 +29,22 @@ In this Tutorial, we will describe how to set up a shared memory resource that m
 <div style="text-align:left">
     <img src="architecture.png" width="65%" />
 </div>
+
+
+## Prerequisites
+- Python 3.10+
+- AWS account with appropriate permissions
+- AWS IAM role with appropriate permissions for AgentCore Memory
+- Access to Amazon Bedrock models
+
+### Scenario context
+
+In this example, we'll create a **Travel Planning System** with:
+1. A Flight Booking Assistant specialized in air travel
+2. A Hotel Booking Assistant focused on accommodations
+3. A Travel Coordinator that delegates to these specialized agents
+
+This approach demonstrates how complex domains can be broken down into specialized agents that share memory the same memory store.
 
 
 
